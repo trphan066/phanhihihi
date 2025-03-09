@@ -1,0 +1,59 @@
+#div1 {
+  width: 90vw;
+  height: 10vw;
+  background-color: rgb(176, 176, 176);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  color: black;
+}
+#red {
+  width: 10vw;
+  height: 10vw;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#green {
+  width: 10vw;
+  height: 10vw;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#blue {
+  width: 10vw;
+  height: 10vw;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  background-color: #2c3e50;
+  padding: 15px 0;
+  text-align: center;
+}
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #3498db;
+}
